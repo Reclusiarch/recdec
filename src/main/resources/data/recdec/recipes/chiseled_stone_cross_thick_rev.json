@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "recdec",
+  "ingredients": [
+    {
+      "item": "recdec:chiseled_stone_cross_thick"
+    }
+  ],
+  "result":
+  {
+    "item":"recdec:chiseled_stone_cross"
+  }
+}

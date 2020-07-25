@@ -1,0 +1,8 @@
+{
+  "variants": {
+	"facing=north": { "model": "recdec:block/dungeon_brazier" },
+	"facing=south": { "model": "recdec:block/dungeon_brazier", "y": 180 },
+	"facing=west": { "model": "recdec:block/dungeon_brazier", "y": 270 },
+	"facing=east": { "model": "recdec:block/dungeon_brazier", "y": 90 }
+  }
+}

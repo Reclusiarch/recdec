@@ -1,0 +1,17 @@
+{
+	"_comment": "Creative Tabs",
+  	"itemGroup.recdec": "Bixel Decoration Mod",
+
+  	"_comment": "Items",
+
+  
+  	"_comment": "Blocks",
+  	"block.recdec.stone_bricks_dirty": "Stone Bricks Dirty",
+  	"block.recdec.stone_bricks_sandy": "Stone Bricks Sandy",
+   	"block.recdec.stone_bricks_sandy_red": "Stone Bricks Sandy Red",
+  	"block.recdec.chiseled_stone_cross": "Chiseled Stone Cross",
+  	"block.recdec.chiseled_stone_cross_thick": "Thick Chiseled Stone Cross",
+  	"block.recdec.dungeon_brazier": "Dungeon Brazier",
+	"block.recdec.village_barrel": "Village Barrel",
+  	"block.recdec.machine_frame": "Machine Frame"
+}

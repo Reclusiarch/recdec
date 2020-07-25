@@ -1,0 +1,21 @@
+{
+  "type":"crafting_shaped",
+  "group": "recdec",
+  "pattern":["sss","sds", "sss"],
+  "key":
+  {
+    "s":
+    {
+      "item":"minecraft:stone_bricks"
+    },
+    "d":
+    {
+      "item":"minecraft:dirt"
+    }
+  },
+  "result":
+  {
+    "item":"recdec:stone_bricks_dirty",
+	"count": 8
+  }
+}

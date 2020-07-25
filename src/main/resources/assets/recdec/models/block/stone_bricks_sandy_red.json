@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "recdec:block/stone_bricks_sandy_red"
+  }
+}

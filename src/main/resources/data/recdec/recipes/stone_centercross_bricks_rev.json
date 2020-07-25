@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "recdec",
+  "ingredients": [
+    {
+      "item":"recdec:stone_centercross_bricks"
+    }
+  ],
+  "result":
+  {
+    "item":"minecraft:stone_bricks"
+  }
+}

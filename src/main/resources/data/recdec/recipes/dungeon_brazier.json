@@ -1,0 +1,24 @@
+{
+  "type":"crafting_shaped",
+  "group": "recdec",
+  "pattern":["   ","ibi", " s "],
+  "key":
+  {
+	"s":
+    {
+      "item":"minecraft:stone"
+    },
+    "i":
+    {
+      "item":"minecraft:iron_ingot"
+    },
+    "b":
+    {
+      "item":"minecraft:lava_bucket"
+    }
+  },
+  "result":
+  {
+    "item":"recdec:dungeon_brazier"
+  }
+}
