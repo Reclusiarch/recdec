@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "recdec:block/stone_centercross_slab" },
+        "type=top": { "model": "recdec:block/stone_centercross_top" },
+        "type=double": { "model": "recdec:block/stone_centercross_bricks" }
+    }
+}

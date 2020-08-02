@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "recdec:block/flag_stone_slab" },
+        "type=top": { "model": "recdec:block/flag_stone_top" },
+        "type=double": { "model": "recdec:block/flag_stone" }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "recdec:block/stone_centercross_bricks",
+        "top": "recdec:block/stone_centercross_bricks",
+        "side": "recdec:block/stone_centercross_bricks"
+    }
+}

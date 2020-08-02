@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "recdec:block/smoked_polished_andesite",
+        "side": "recdec:block/smoked_polished_andesite"
+    }
+}

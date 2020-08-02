@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "recdec:stone_cross_bricks"
+          "name": "recdec:smoked_smooth_stone"
         }
       ],
       "conditions": [

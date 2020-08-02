@@ -3,11 +3,11 @@
   "group": "recdec",
   "ingredients": [
     {
-      "item":"recdec:stacked_stone_bricks"
+      "item": "minecraft:stone_bricks"
     }
   ],
   "result":
   {
-    "item":"recdec:stone_centercross_bricks"
+    "item":"recdec:flag_stone"
   }
 }

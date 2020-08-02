@@ -11,7 +11,19 @@
    	"block.recdec.stone_bricks_sandy_red": "Stone Bricks Sandy Red",
   	"block.recdec.chiseled_stone_cross": "Chiseled Stone Cross",
   	"block.recdec.chiseled_stone_cross_thick": "Thick Chiseled Stone Cross",
+	"block.recdec.stone_centercross_bricks": "Stone Center Cross Bricks",
+	"block.recdec.stone_centercross_slab": "Stone Center Cross Slab",
+  	"block.recdec.stacked_stone_bricks": "Stacked Stone Bricks",
+	"block.recdec.flag_stone": "Flag Stone",
+	"block.recdec.flag_stone_slab": "Flag Stone Slab",
+	"block.recdec.smoked_smooth_stone": "Smoked Smooth Stone",
+	"block.recdec.smoked_smooth_stone_slab": "Smoked Smooth Stone Slab",
+	"block.recdec.smoked_polished_andesite": "Smoked Polished Andesite",
+	"block.recdec.smoked_polished_andesite_slab": "Smoked Polished Andesite Slab",
   	"block.recdec.dungeon_brazier": "Dungeon Brazier",
 	"block.recdec.village_barrel": "Village Barrel",
-  	"block.recdec.machine_frame": "Machine Frame"
+  	"block.recdec.machine_frame": "Machine Frame",
+
+  	"_comment": "Slabs",
+	"block.recdec.flag_stone_slab": "Flag Stone Slab"
 }

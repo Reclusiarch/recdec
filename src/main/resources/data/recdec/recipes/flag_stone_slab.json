@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "recdec",
+  "pattern":["sss"],
+  "key":
+  {
+	"s":
+    {
+      "item":"recdec:flag_stone"
+    }
+  },
+  "result":
+  {
+    "item":"recdec:flag_stone_slab",
+	"count": 6
+  }
+}

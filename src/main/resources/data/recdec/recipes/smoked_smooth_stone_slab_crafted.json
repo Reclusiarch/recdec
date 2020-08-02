@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "recdec",
+  "pattern":["sss"],
+  "key":
+  {
+	"s":
+    {
+      "item":"recdec:smoked_smooth_stone"
+    }
+  },
+  "result":
+  {
+    "item":"recdec:smoked_smooth_stone_slab",
+	"count": 6
+  }
+}

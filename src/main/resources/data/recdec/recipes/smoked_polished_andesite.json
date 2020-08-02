@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:polished_andesite"
+  },
+  "result": "recdec:smoked_polished_andesite",
+  "experience": 0.35,
+  "cookingtime": 60
+}

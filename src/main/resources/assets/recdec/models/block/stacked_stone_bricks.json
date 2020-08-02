@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "recdec:block/stacked_stone_bricks"
+  }
+}

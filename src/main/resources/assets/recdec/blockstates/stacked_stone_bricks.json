@@ -1,0 +1,8 @@
+{
+  "variants": {
+	"facing=north": { "model": "recdec:block/stacked_stone_bricks" },
+	"facing=south": { "model": "recdec:block/stacked_stone_bricks", "y": 180 },
+	"facing=west": { "model": "recdec:block/stacked_stone_bricks", "y": 270 },
+	"facing=east": { "model": "recdec:block/stacked_stone_bricks", "y": 90 }
+  }
+}

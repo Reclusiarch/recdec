@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "recdec:block/smoked_polished_andesite_slab" },
+        "type=top": { "model": "recdec:block/smoked_polished_andesite_top" },
+        "type=double": { "model": "recdec:block/smoked_polished_andesite_slab_double" }
+    }
+}
