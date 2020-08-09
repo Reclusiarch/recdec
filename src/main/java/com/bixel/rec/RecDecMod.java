@@ -13,13 +13,8 @@ import com.bixel.rec.init.TileEntityRegister;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
@@ -29,7 +24,7 @@ public class RecDecMod
 {
 	public static RecDecMod instance;
 	public static final String MOD_ID = "recdec";
-	public static final String MOD_NAME = "Bixel Decoration Mod";
+	public static final String MOD_NAME = "Bixel's Decoration Mod";
 
 	public static final String VERSION = "0.1.0";
 	
@@ -49,15 +44,12 @@ public class RecDecMod
     	TileEntityRegister.TILE_ENTITY_TYPES.register(modEventBus);
         ContainerRegister.CONTAINER_TYPES.register(modEventBus);
     	
-    	//modEventBus.addListener(this::enqueueIMC);
-        //modEventBus.addListener(this::processIMC);
-        //modEventBus.addListener(this::doClientStuff);
-    	
     	modEventBus.addListener(ModSetup::init);
     	modEventBus.addListener(ClientSetup::init);
     	instance = this;
     }
 
+    /*
     private void setup(final FMLCommonSetupEvent event)
     {
     }
@@ -75,7 +67,7 @@ public class RecDecMod
 
     private void processIMC(final InterModProcessEvent event)
     {
-    }
+    }*/
     
     //done before the server starts...
     @SubscribeEvent

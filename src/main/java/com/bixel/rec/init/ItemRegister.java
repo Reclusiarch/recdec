@@ -39,6 +39,8 @@ public class ItemRegister
 		new BlockItem(BlockRegister.DUNGEON_BRAZIER.get(), new Item.Properties().group(ModSetup.itemGroup)));
 	public static final RegistryObject<Item> DUNGEON_CANDLES = ITEMS.register("dungeon_candles", () -> 
 		new BlockItem(BlockRegister.DUNGEON_CANDLES.get(), new Item.Properties().group(ModSetup.itemGroup)));
+	public static final RegistryObject<Item> EMISSIVE_SHROOMS = ITEMS.register("emissive_shrooms", () -> 
+		new BlockItem(BlockRegister.EMISSIVE_SHROOMS.get(), new Item.Properties().group(ModSetup.itemGroup)));
 	public static final RegistryObject<Item> VILLAGE_BARREL = ITEMS.register("village_barrel", () -> 
 		new BlockItem(BlockRegister.VILLAGE_BARREL.get(), new Item.Properties().group(ModSetup.itemGroup)));
 	

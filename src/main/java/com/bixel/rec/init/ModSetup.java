@@ -16,7 +16,6 @@ public class ModSetup
 	    @Override
 	    public ItemStack createIcon() 
 	    {
-	    	//return new ItemStack(BlockInit.chiseled_stone_cross);
 	        return new ItemStack(BlockRegister.CHISELED_STONE_CROSS.get());
 	    }
 	};

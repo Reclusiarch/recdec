@@ -73,6 +73,8 @@ public class BlockRegister
 			harvestLevel(2).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
 	public static final RegistryObject<Block> DUNGEON_CANDLES = BLOCKS.register("dungeon_candles", () -> 
 		new DungeonCandles(Block.Properties.create(Material.ORGANIC, MaterialColor.YELLOW).hardnessAndResistance(0.5f, 6.0f).sound(SoundType.STEM)));
+	public static final RegistryObject<Block> EMISSIVE_SHROOMS = BLOCKS.register("emissive_shrooms", () -> 
+		new ModelBlock(Block.Properties.create(Material.ORGANIC, MaterialColor.YELLOW).hardnessAndResistance(0.5f, 6.0f).sound(SoundType.STEM)));
 	public static final RegistryObject<Block> VILLAGE_BARREL = BLOCKS.register("village_barrel", () ->
 		new VillageBarrelBlock(Block.Properties.create(Material.WOOD, MaterialColor.WOOD).hardnessAndResistance(1f, 10.0f).
 			harvestLevel(1).harvestTool(ToolType.AXE).sound(SoundType.WOOD)));

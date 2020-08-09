@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "recdec:flag_stone"
+  },
+  "result": "recdec:chiseled_flag_stone",
+  "count": 1
+}

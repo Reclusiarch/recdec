@@ -1,12 +1,8 @@
 package com.bixel.rec.init;
 
 import com.bixel.rec.RecDecMod;
-import com.bixel.rec.objects.particles.ColouredParticle;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.particles.ParticleType;
-import net.minecraftforge.client.event.ParticleFactoryRegisterEvent;
-import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 

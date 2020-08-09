@@ -17,6 +17,8 @@ import net.minecraft.util.IWorldPosCallable;
 
 public class ExampleChestContainer extends Container
 {
+	//redo containers with this tutorial
+	//https://www.youtube.com/watch?v=5_xFVu1DTsg&list=PLmaTwVFUUXiBKYYSyrv_uPPoPZtEsCBVJ&index=4&t=303s
 	private final IWorldPosCallable canInteractWithCallable;
 		
 	public final ExampleChestTileEntity entity;
@@ -86,6 +88,60 @@ public class ExampleChestContainer extends Container
 		Slot slot = this.inventorySlots.get(index);
 		if(slot != null && slot.getHasStack())
 		{
+			ItemStack stack = slot.getStack();
+			itemStack = stack.copy();
+			if(index == 0)
+			{
+				if(!this.mergeItemStack(stack, 1, 37, true))
+				{
+					return ItemStack.EMPTY;
+				}
+				slot.onSlotChange(stack, itemStack);
+			}
+			else
+			{
+				if (!this.mergeItemStack(stack, 0, 1, false)) 
+				{
+                    return ItemStack.EMPTY;
+                }
+				else if (index < 28)
+                {
+                    if (!this.mergeItemStack(stack, 28, 37, false)) 
+                    {
+                        return ItemStack.EMPTY;
+                    }
+                } 
+				else if (index < 37 && !this.mergeItemStack(stack, 1, 28, false)) 
+                {
+                    return ItemStack.EMPTY;
+                }
+			}
+			if (stack.isEmpty()) 
+			{
+                slot.putStack(ItemStack.EMPTY);
+            } 
+			else 
+			{
+                slot.onSlotChanged();
+            }
+
+            if (stack.getCount() == itemStack.getCount()) 
+            {
+                return ItemStack.EMPTY;
+            }
+
+            slot.onTake(playerIn, stack);
+		}
+		return itemStack;
+	}
+	/*
+	@Override
+	public ItemStack transferStackInSlot(PlayerEntity playerIn, int index)
+	{
+		ItemStack itemStack = ItemStack.EMPTY;
+		Slot slot = this.inventorySlots.get(index);
+		if(slot != null && slot.getHasStack())
+		{
 			ItemStack itemStackSlot = slot.getStack();
 			itemStack = itemStackSlot.copy();
 			if(index < 36)
@@ -109,5 +165,5 @@ public class ExampleChestContainer extends Container
 			}
 		}
 		return itemStack;
-	}
+	}*/
 }
