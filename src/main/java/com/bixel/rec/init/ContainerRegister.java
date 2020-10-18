@@ -2,6 +2,7 @@ package com.bixel.rec.init;
 
 import com.bixel.rec.RecDecMod;
 import com.bixel.rec.container.ExampleChestContainer;
+import com.bixel.rec.container.VillageBarrelContainer;
 
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraftforge.common.extensions.IForgeContainerType;
@@ -20,4 +21,7 @@ public class ContainerRegister
 	
 	public static final RegistryObject<ContainerType<ExampleChestContainer>> EXAMPLE_CHEST = CONTAINER_TYPES.register("example_chest",
 			() -> IForgeContainerType.create(ExampleChestContainer::new));
+	
+	public static final RegistryObject<ContainerType<VillageBarrelContainer>> VILLAGE_BARREL = CONTAINER_TYPES.register("village_barrel",
+			() -> IForgeContainerType.create(VillageBarrelContainer::new));
 }

@@ -1,7 +1,7 @@
 package com.bixel.rec.objects.blocks;
 
 import com.bixel.rec.init.TileEntityRegister;
-import com.bixel.rec.tileentities.ExampleChestTileEntity;
+import com.bixel.rec.tiles.ExampleChestTileEntity;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

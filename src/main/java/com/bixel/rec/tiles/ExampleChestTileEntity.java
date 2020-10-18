@@ -1,4 +1,4 @@
-package com.bixel.rec.tileentities;
+package com.bixel.rec.tiles;
 
 import javax.annotation.Nonnull;
 

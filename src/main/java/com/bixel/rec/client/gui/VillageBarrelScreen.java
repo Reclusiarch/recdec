@@ -1,7 +1,7 @@
 package com.bixel.rec.client.gui;
 
 import com.bixel.rec.RecDecMod;
-import com.bixel.rec.container.ExampleChestContainer;
+import com.bixel.rec.container.VillageBarrelContainer;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
@@ -10,11 +10,11 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
 
-public class ExampleChestScreen extends ContainerScreen<ExampleChestContainer>
+public class VillageBarrelScreen extends ContainerScreen<VillageBarrelContainer>
 {
 	private static final ResourceLocation BACKGROUND_TEXTURE = RecDecMod.loc("textures/gui/example_chest.png");
 	
-	public ExampleChestScreen(ExampleChestContainer screenContainer, PlayerInventory inv, ITextComponent titleIn) 
+	public VillageBarrelScreen(VillageBarrelContainer screenContainer, PlayerInventory inv, ITextComponent titleIn) 
 	{
 		super(screenContainer, inv, titleIn);
 		this.guiLeft = 0;

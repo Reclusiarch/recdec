@@ -2,6 +2,7 @@ package com.bixel.rec.init;
 
 import com.bixel.rec.RecDecMod;
 import com.bixel.rec.client.gui.ExampleChestScreen;
+import com.bixel.rec.client.gui.VillageBarrelScreen;
 
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.item.Item;
@@ -18,6 +19,7 @@ public class ClientSetup
     public static void init(final FMLClientSetupEvent event) 
     {
         ScreenManager.registerFactory(ContainerRegister.EXAMPLE_CHEST.get(), ExampleChestScreen::new);
+        ScreenManager.registerFactory(ContainerRegister.VILLAGE_BARREL.get(), VillageBarrelScreen::new);
     }
     
     @SubscribeEvent

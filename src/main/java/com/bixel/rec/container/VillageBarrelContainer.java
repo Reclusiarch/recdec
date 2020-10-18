@@ -4,7 +4,7 @@ import java.util.Objects;
 
 import com.bixel.rec.init.BlockRegister;
 import com.bixel.rec.init.ContainerRegister;
-import com.bixel.rec.tiles.ExampleChestTileEntity;
+import com.bixel.rec.tiles.VillageBarrelTileEntity;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
@@ -15,17 +15,17 @@ import net.minecraft.network.PacketBuffer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.IWorldPosCallable;
 
-public class ExampleChestContainer extends Container
+public class VillageBarrelContainer extends Container
 {
 	//redo containers with this tutorial
 	//https://www.youtube.com/watch?v=5_xFVu1DTsg&list=PLmaTwVFUUXiBKYYSyrv_uPPoPZtEsCBVJ&index=4&t=303s
 	private final IWorldPosCallable canInteractWithCallable;
 		
-	public final ExampleChestTileEntity entity;
+	public final VillageBarrelTileEntity entity;
 	
-	public ExampleChestContainer(final int windowId, final PlayerInventory playerInventory, final ExampleChestTileEntity tileEntity) 
+	public VillageBarrelContainer(final int windowId, final PlayerInventory playerInventory, final VillageBarrelTileEntity tileEntity) 
 	{
-		super(ContainerRegister.EXAMPLE_CHEST.get(), windowId);
+		super(ContainerRegister.VILLAGE_BARREL.get(), windowId);
 		this.entity = tileEntity;
 		this.canInteractWithCallable = IWorldPosCallable.of(entity.getWorld(), entity.getPos());
 		
@@ -58,19 +58,19 @@ public class ExampleChestContainer extends Container
 		}
 	}
 	
-	private static ExampleChestTileEntity getTileEntity(final PlayerInventory inventory, final PacketBuffer data)
+	private static VillageBarrelTileEntity getTileEntity(final PlayerInventory inventory, final PacketBuffer data)
 	{
 		Objects.requireNonNull(inventory, "PlayerInventory cannot be null");
 		Objects.requireNonNull(data, "Data cannot be null");
 		final TileEntity tileAtPos = inventory.player.world.getTileEntity(data.readBlockPos());
-		if(tileAtPos instanceof ExampleChestTileEntity)
+		if(tileAtPos instanceof VillageBarrelTileEntity)
 		{
-			return (ExampleChestTileEntity)tileAtPos;
+			return (VillageBarrelTileEntity)tileAtPos;
 		}
 		throw new IllegalStateException("Incorrect TileEnity " + tileAtPos);
 	}
 	
-	public ExampleChestContainer(final int windowId, final PlayerInventory playerInventory, final PacketBuffer data)
+	public VillageBarrelContainer(final int windowId, final PlayerInventory playerInventory, final PacketBuffer data)
 	{
 		this(windowId, playerInventory, getTileEntity(playerInventory, data));
 	}
@@ -78,7 +78,7 @@ public class ExampleChestContainer extends Container
 	@Override
 	public boolean canInteractWith(PlayerEntity playerIn)
 	{
-		return isWithinUsableDistance(canInteractWithCallable, playerIn, BlockRegister.EXAMPLE_CHEST.get());
+		return isWithinUsableDistance(canInteractWithCallable, playerIn, BlockRegister.VILLAGE_BARREL.get());
 	}
 	
 	@Override
