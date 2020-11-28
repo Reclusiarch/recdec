@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "recdec:block/smoked_smooth_stone_slab_top",
+    "top": "recdec:block/smoked_smooth_stone_slab_top",
+    "side": "recdec:block/smoked_smooth_stone_slab_top"
+  }
+}

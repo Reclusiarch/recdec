@@ -18,13 +18,10 @@
 	"block.recdec.chiseled_flag_stone": "Chiseled Flag Stone",
 	"block.recdec.smoked_smooth_stone": "Smoked Smooth Stone",
 	"block.recdec.smoked_smooth_stone_slab": "Smoked Smooth Stone Slab",
+	"block.recdec.smoked_smooth_stone_stairs": "Smoked Smooth Stone Stairs",
 	"block.recdec.smoked_polished_andesite": "Smoked Polished Andesite",
 	"block.recdec.smoked_polished_andesite_slab": "Smoked Polished Andesite Slab",
-	"block.recdec.dungeon_candles": "Dungeon Candles",
+	"block.recdec.smoked_polished_andesite_stairs": "Smoked Polished Andesite Stairs",
   	"block.recdec.dungeon_brazier": "Dungeon Brazier",
-	"block.recdec.village_barrel": "Village Barrel",
-	"block.recdec.example_chest": "Example Chest",
-
-  	"_comment": "Slabs",
-	"block.recdec.flag_stone_slab": "Flag Stone Slab"
+	"block.recdec.village_barrel": "Village Barrel"
 }

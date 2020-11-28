@@ -37,15 +37,10 @@ public class ItemRegister
 	
 	public static final RegistryObject<Item> DUNGEON_BRAZIER = ITEMS.register("dungeon_brazier", () -> 
 		new BlockItem(BlockRegister.DUNGEON_BRAZIER.get(), new Item.Properties().group(ModSetup.itemGroup)));
-	public static final RegistryObject<Item> DUNGEON_CANDLES = ITEMS.register("dungeon_candles", () -> 
-		new BlockItem(BlockRegister.DUNGEON_CANDLES.get(), new Item.Properties().group(ModSetup.itemGroup)));
 	public static final RegistryObject<Item> EMISSIVE_SHROOMS = ITEMS.register("emissive_shrooms", () -> 
 		new BlockItem(BlockRegister.EMISSIVE_SHROOMS.get(), new Item.Properties().group(ModSetup.itemGroup)));
 	public static final RegistryObject<Item> VILLAGE_BARREL = ITEMS.register("village_barrel", () -> 
 		new BlockItem(BlockRegister.VILLAGE_BARREL.get(), new Item.Properties().group(ModSetup.itemGroup)));
-	
-	public static final RegistryObject<Item> EXAMPLE_CHEST = ITEMS.register("example_chest", () -> 
-		new BlockItem(BlockRegister.EXAMPLE_CHEST.get(), new Item.Properties().group(ModSetup.itemGroup)));
 	
 	public static final RegistryObject<Item> FLAG_STONE_SLAB = ITEMS.register("flag_stone_slab", () -> 
 		new BlockItem(BlockRegister.FLAG_STONE_SLAB.get(), new Item.Properties().group(ModSetup.itemGroup)));
@@ -53,6 +48,10 @@ public class ItemRegister
 		new BlockItem(BlockRegister.STONE_CENTERCROSS_SLAB.get(), new Item.Properties().group(ModSetup.itemGroup)));
 	public static final RegistryObject<Item> SMOKED_SMOOTH_STONE_SLAB = ITEMS.register("smoked_smooth_stone_slab", () -> 
 		new BlockItem(BlockRegister.SMOKED_SMOOTH_STONE_SLAB.get(), new Item.Properties().group(ModSetup.itemGroup)));
+	public static final RegistryObject<Item> SMOKED_SMOOTH_STONE_STAIRS = ITEMS.register("smoked_smooth_stone_stairs", () -> 
+		new BlockItem(BlockRegister.SMOKED_SMOOTH_STONE_STAIRS.get(), new Item.Properties().group(ModSetup.itemGroup)));
 	public static final RegistryObject<Item> SMOKED_POLISHED_ANDESITE_SLAB = ITEMS.register("smoked_polished_andesite_slab", () -> 
 		new BlockItem(BlockRegister.SMOKED_POLISHED_ANDESITE_SLAB.get(), new Item.Properties().group(ModSetup.itemGroup)));
+	public static final RegistryObject<Item> SMOKED_POLISHED_ANDESITE_STAIRS = ITEMS.register("smoked_polished_andesite_stairs", () -> 
+		new BlockItem(BlockRegister.SMOKED_POLISHED_ANDESITE_STAIRS.get(), new Item.Properties().group(ModSetup.itemGroup)));
 }

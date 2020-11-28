@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "recdec:smoked_smooth_stone"
+    }
+  },
+  "result": {
+    "item": "recdec:smoked_smooth_stone_stairs",
+    "count": 4
+  }
+}
+
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "recdec:smoked_smooth_stone"
+  },
+  "result": "recdec:smoked_smooth_stone_stairs",
+  "count": 1
+}

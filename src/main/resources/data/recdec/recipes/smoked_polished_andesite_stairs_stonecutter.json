@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "recdec:smoked_polished_andesite"
+  },
+  "result": "recdec:smoked_polished_andesite_stairs",
+  "count": 1
+}
